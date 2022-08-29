@@ -1,0 +1,40 @@
+.footer {
+    background-color: #9c27b0;
+    min-width: 100%;
+    bottom: 0;
+    position: absolute;
+    font-family: "Times, Times New Roman, serif";
+}
+
+.footerContent {
+    padding-top: 0.1px;
+}
+
+.footer h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer h5 a:hover {
+    color: rgb(175, 175, 175);
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 125px;
+    padding-bottom: 10px;
+}
+
+.socialMedia a {
+    margin-left: 150px;
+    color: black;
+}
+
+/* How to detect when page becomes scrollable css? (working solution below if found) */
+@media (min-height: 1980px) {
+    .footer {
+        position: relative !important;
+    }
+}

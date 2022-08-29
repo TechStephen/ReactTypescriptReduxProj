@@ -1,0 +1,53 @@
+.hamburgerButton {
+    left: 88%;
+}
+
+/*  Responsive Styling */
+@media screen and (max-width: 1600px) {
+    .hamburgerButton {
+        left: 84%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .hamburgerButton {
+        left: 80%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hamburgerButton {
+        left: 76%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .hamburgerButton {
+        left: 70%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hamburgerButton {
+        left: 66%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hamburgerButton {
+        left: 55%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hamburgerButton {
+        left: 50%;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .hamburgerButton {
+        left: 45%;
+    }
+}

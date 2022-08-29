@@ -1,0 +1,45 @@
+.description {
+    margin: 75px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description h2 {
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.description h2, p {
+    font-family: 'New Century Schoolbook, TeX Gyre Schola, serif';
+}
+
+.description p {
+    width: 600px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.formInput {
+    border-radius: 5px;
+}
+
+.formInput, .formBtn {
+    width: 600px;
+}
+
+.formBtn {
+    align-items: center;
+}
+
+.inputLabel {
+    padding-right: 45%;
+}

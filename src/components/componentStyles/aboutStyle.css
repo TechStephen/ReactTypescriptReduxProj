@@ -1,0 +1,111 @@
+.About {
+    background-image: url('https://images.hdqwalls.com/download/smooth-purple-abstract-4k-hr-1920x1080.jpg');
+    overflow: hidden;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+.aboutTitle {
+    font-family: 'URW Chancery L, cursive';
+    font-size: 40px;
+    color: white;
+}
+
+.topRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutCard {
+    margin-right: 6vw;
+    height: 30vh;
+    width: 30vw;
+}
+
+.cardContentAboutMe {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1.5vh;
+}
+
+.cardMedia {
+    height: 12vh;
+    padding-top: 8vh;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.actionBtn {
+    max-height: 30px;
+}
+
+.link {
+    color: rgb(25, 105, 143);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.languagesUsedCard {
+    height: 30vh;
+    width: 30vw;
+    padding-right: 3vw;
+}
+
+.table {
+    margin: 1vw 0 0 2vw;
+}
+
+.descriptionCard {
+    margin-top: 4vh;
+    width: 69vw;
+    height: 25vh;
+}
+
+.icons {
+    margin-left: 2vw;
+    font-size: 25px;
+}
+
+.descriptionText {
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-size: 60px;
+}
+
+/* Button Grow Animation */
+
+@keyframes grow {
+    from {max-height: 35px; width: 120px;}
+    to {max-height: 38px; width: 135px;}
+}
+
+@keyframes growText {
+    from {font-size: 12px;}
+    to {font-size: 13px;}
+}
+
+@keyframes colorShift {
+    from {background: white;}
+    to {background: #9c27b0;}
+}
+
+.actionBtn:hover {
+    animation: colorShift 1s linear infinite alternate, grow 0.3s linear forwards;
+    color: black;
+}
+
+.link:hover {
+    animation: growText 0.4s linear forwards;
+    color: rgb(12, 25, 136);
+}
+
+/* Responsive Styling */
+
+@media screen and (max-width: 1250px) {
+    .languagesUsedCard {
+        width: 35vw !important;
+    }
+}
